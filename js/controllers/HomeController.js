@@ -93,26 +93,32 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
   ];
 	
-	
-
-	
 	/* ADD VARIABLES FOR STEP 3 HERE */
-	
-	
-	
-	
-	
-	
-	
-	
-	/* ADD FUNCTIONS FOR STEP 7 HERE */
-		
-	
-	
-	
-	
-	
-	
-	
-	
+	$scope.title = "IMDB + Todd's Top Movies";
+    $scope.owner = "Todd";
+    $scope.github = "https://github.com/tmurphy605/is219p3";
+
+    /* ADD FUNCTIONS FOR STEP 7 HERE */
+
+    $scope.like = function (index) {
+        $scope.movies[index].likes++;
+    }
+
+    $scope.dislike = function (index) {
+        $scope.movies[index].dislikes++;
+    }
+
+    $scope.posterClick = function (index) {
+        $scope.movies[index].posterindex++;
+        if ($scope.movies[index].posterindex == $scope.movies[index].posters.length) {
+            $scope.movies[index].posterindex = 0;
+        }
+    }
+
+    $scope.timeText = function (minutes) {
+        $scope.hour = Math.floor(minutes / 60);
+        $scope.min = minutes % 60;
+        return $scope.hour + " hours " + $scope.min + " minutes";
+    }
+    
 }]);
