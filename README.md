@@ -1,3 +1,5 @@
+Todd Murphy IS219 Spring 2018
+
 The initial start of a Movie Gallery that lists various movie titles and metadata on the screen. Using AngularJS (>1.5), and no jQuery, create a working Movie Gallery as described on your assignment in Moodle.
 
 Make sure to track all your changes using good commit messages (http://chris.beams.io/posts/git-commit/). 
