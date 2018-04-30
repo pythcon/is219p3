@@ -88,6 +88,48 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+    { 
+      title:	'Goodfellas', 
+      iscore:	8.9,
+      rating:	'R',
+      runtime:	195,
+      released:	new Date('1993', '11', '30'),
+      country:	'USA',
+      posters:	['img/schindlerslist.jpg'],
+      imdb:		'http://www.imdb.com/title/tt0108052',
+      website:	'https://www.uphe.com/schindlers-list',
+      likes:	812,
+      dislikes:	101,
+      posterindex: 0
+	},
+    { 
+      title:	'Casino', 
+      iscore:	8.9,
+      rating:	'R',
+      runtime:	195,
+      released:	new Date('1993', '11', '30'),
+      country:	'USA',
+      posters:	['img/schindlerslist.jpg'],
+      imdb:		'http://www.imdb.com/title/tt0108052',
+      website:	'https://www.uphe.com/schindlers-list',
+      likes:	812,
+      dislikes:	101,
+      posterindex: 0
+	},
+    { 
+      title:	'Donnie Brasco', 
+      iscore:	8.9,
+      rating:	'R',
+      runtime:	195,
+      released:	new Date('1993', '11', '30'),
+      country:	'USA',
+      posters:	['img/schindlerslist.jpg'],
+      imdb:		'http://www.imdb.com/title/tt0108052',
+      website:	'https://www.uphe.com/schindlers-list',
+      likes:	812,
+      dislikes:	101,
+      posterindex: 0
 	}
 	
 	
