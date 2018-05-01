@@ -109,7 +109,7 @@ body {
     transition: background 500ms;
 }
 .dislikes {
-    background-color: #f50002;
+    background-color: #f65a5b;
 	color: #ffffff;
     cursor: pointer;
     display: inline-block;
